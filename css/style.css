@@ -1,11 +1,12 @@
 body {
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    background-color: #171717;
+    background-color: var(--body-color);
     letter-spacing: 0.02em;
 }
 
 :root{
+    --body-color: #171717;
     --clear-white-color: #ffffff;
     --white-color: #FAFAF9;
     --tomato-color: #E6533C;
@@ -169,7 +170,9 @@ textarea {
     text-decoration: none;
 }
 
+
 .hero-img{
+    
     background: url(<path-to-image>), lightgray -529.19px 0px / 267.675% 100% no-repeat;
     width: 409px;
     height: 684px;
