@@ -111,7 +111,8 @@ textarea {
     font-size: 172px;
     line-height: 170px;
     letter-spacing: 0.02em;
-    max-width: 883px;
+    max-width: 790px;
+    max-height: 311px;
     margin-bottom: 46px;
 }
 
@@ -173,8 +174,10 @@ textarea {
 .hero-img{    
     background: url(<path-to-image>), rgba(0,0,0,0) -529.19px 0px / 267.675% 100% no-repeat;
     flex-shrink: 0;
-    Top: 305px;
-    Left: 800px;
+    Top: 291px;
+    Left: 798px;
+    margin-left: 106px;
+    position: absolute;
 }
 
 .shure{
