@@ -18,6 +18,10 @@ body {
     --span-4: #4F5261;
     --color-link: #0070C9;
     --color-line: #ffffffA5;
+    --border-icon: #EFA082;
+    --box-2: #303030;
+    --box-3: #7A29DC;
+
      /* Анимация времени */
 
   --anim-slow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -178,6 +182,121 @@ textarea {
     Left: 798px;
     margin-left: 106px;
     position: absolute;
+}
+
+.box-1{
+    width: 180px;
+    height: 110px;
+    background-color: var(--hero-hover);
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-left: 26px;
+    Top: 279px;
+    Left: 1152px;
+}
+
+.box-icon{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: var(--border-icon);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.number-1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 0.05px;
+    color: var(--white-color);
+    margin-right: 8px;
+}
+
+.text-1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05px;
+    color: var(--grey-color);
+}
+
+.box-2{
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 23px;
+    background-color: var(--box-2);
+    Top: 668px;
+    Left: 737px;
+
+}
+
+.box-icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--hero-hover);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.icons-2{
+    padding-left: 3px;
+}
+
+.title-2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+
+.text-2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: var(--grey-color);
+}
+
+.box-3{
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    background-color: var(--box-3);
+    position: absolute;
+    padding: 16px 23px;
+    Top: 768px;
+    Left: 1203px;
+}
+
+.title-3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.text-3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: var(--grey-color);
 }
 
 .shure{
