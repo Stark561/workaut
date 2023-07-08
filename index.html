@@ -17,6 +17,24 @@
 <body>
     <header class="header">
         <a href="/" class="logo" >WORKOUT</a>
+
+        <div class="theme-switch__control">
+            <input
+              class="theme-switch__toggle"
+              type="checkbox"
+              name="theme"
+              id="theme-switch-toggle"
+              aria-label="Переключить тему"
+            />
+            <label
+              aria-hidden="true"
+              class="theme-switch__track"
+              for="theme-switch-toggle"
+            >
+            </label>
+            <div aria-hidden="true" class="theme-switch__marker"></div>
+          </div>
+
         <ul class="header-list">
             <li class="header-item">
                 <a href="/" class="header-link">WORKOUTS</a>
@@ -286,6 +304,9 @@
                 </button>
         </footer>
 
+        
         <script src="./js/scrollUp.js"></script>
+        <script src="./js/theme.js"></script>        
+        <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 </body>
 </html>
