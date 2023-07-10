@@ -657,7 +657,7 @@ textarea {
 
 
 
-.theme-switch__control {
+/* .theme-switch__control {
     display: inline-block;
     align-items: center;
     position: relative;
@@ -728,9 +728,9 @@ textarea {
 
 
   /* ================================================ */
-body.light-theme {
+/* body.light-theme {
     background-color: var(--clear-white-color);
     color: var(--body-color);
     stroke: var(--body-color);
-}
+} */
 
