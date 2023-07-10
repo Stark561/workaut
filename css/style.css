@@ -82,6 +82,9 @@ textarea {
 
 .header-list{
     display: flex;
+    position: absolute;
+    top: 51px;
+    left: 884px;
 }
 
 .header-item{
@@ -351,6 +354,8 @@ textarea {
     padding: 52px 40px;
     transition: var(--anim-slow);
     list-style: none;
+    width: 304px;
+    height: 190px;
 }
 
 .list-2{
@@ -360,6 +365,8 @@ textarea {
     padding: 52px 40px;
     transition: var(--anim-slow);
     list-style: none;
+    width: 304px;
+    height: 190px;
 }
 
 .list-4{
@@ -368,6 +375,8 @@ textarea {
     padding: 52px 40px;
     transition: var(--anim-slow);
     list-style: none;
+    width: 304px;
+    height: 190px;
 }
 
 .list-1:hover,
