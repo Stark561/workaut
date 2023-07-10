@@ -477,7 +477,7 @@ textarea {
     width: 1312px;
     margin-left: 141px;
     margin-right: 64px;
-    padding-bottom: 125px;
+    padding-bottom: 60px;
 }
 
 .footer-title{
@@ -618,6 +618,13 @@ textarea {
     text-decoration: none;
 }
 
+.footer-btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+
 .scroll-up-btn{
     font-family: "Poppins";
     font-weight: 600;
@@ -626,15 +633,12 @@ textarea {
 
     width: 150px;
     height: 38px;
-    Top: 3800px;
-    Left: 1226px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--clear-white-color);
     color: var(--box-2);
-    position: absolute;
     transition: var(--anim-slow);
     outline: none;
     cursor: pointer;
